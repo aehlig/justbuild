@@ -1324,7 +1324,7 @@ void DefaultReachableRepositories(
     }
 
     Logger::Log(LogLevel::Info,
-                "Setup finished, exec \"{}\"",
+                "Setup finished, exec {}",
                 nlohmann::json(cmd).dump());
 
     // create argv
